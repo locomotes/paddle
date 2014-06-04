@@ -15,9 +15,11 @@
 }
 
 #headerlineleft {
+	padding-top: 1px;
 }
 
 #headerlineright {
+	padding-top: 1px;
 	float: right;
 }
 
