@@ -1,0 +1,15 @@
+header {
+	background-image: url(../surfandpaddle/images/header.jpg);
+	height: 520px;
+
+}
+
+#headerlineleft {
+	position: relative
+}
+
+#headerlineright {
+	position: relative;
+
+}
+
