@@ -34,3 +34,34 @@
 #headersubtitle {
 	text-align: center;
 }
+
+#containertwo {
+	width: 960px;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+#columnone {
+	float: left;
+	width: 700px;
+}
+
+#columntwo {
+	float: right;
+	width: 260px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: PT+Sans;
+	font-size: 60px;
+}
+
+p {
+	font-size: 60px;
+}
+
+#h2div {
+	width: 600px;
+}
+
