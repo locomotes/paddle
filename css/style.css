@@ -26,7 +26,7 @@
 #headertitle {
 	text-align: center;
 	color: white;
-	font-family: PT+Sans;
+	font-family: 'Oswald';
 	font-size: 90px;
 	padding-top: 100px;
 }
@@ -52,8 +52,8 @@
 	margin: 0 auto;
 }
 
-h2 {
-	font-family: PT+Sans;
+h1 {
+	font-family: 'oswald';
 	font-size: 60px;
 }
 
@@ -64,4 +64,45 @@ p {
 #h2div {
 	width: 600px;
 }
+
+#avatarone {
+	text-align: center;
+}
+
+h2 {
+	font-family: 'oswald';
+	font-size: 60px;
+	text-align: center;
+}
+
+#containerthree {
+	width: 100%;
+}
+
+#articleone, #articletwo, #articlethree, #articlefour {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
