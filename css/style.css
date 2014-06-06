@@ -83,6 +83,36 @@ p {
 	margin-top: 35px;
 }
 
+#rc {width: 185px; height: 30px;}
+#rcsquare {width: 30px; height: 30px; background-color: #2F4F4F; float: left;}
+#rcrec {height: 30px; width: 155px; background-color: #CCCCCC; float: left; color: white; font-size: 16px;}
+#rcrectext {text-align: center; padding-top: 6px;}
+.comment {float: right; padding: 6px; margin-top: 2px;}
+#rc:hover > #rcsquare {background-color: #003366; color: white;}
+#rc:hover > #rcrec {background-color: blue; color: white;}
+
+#rc {float: left;}
+
+#rc2 {width: 130px; height: 30px;}
+#rcsquare2 {width: 30px; height: 30px; background-color: #2F4F4F; float: left;}
+#rcrec2 {height: 30px; width: 100px; background-color: #CCCCCC; float: left; color: white; font-size: 16px;}
+#rcrectext2 {text-align: center; padding-top: 6px;}
+.comment {float: right; padding: 6px; margin-top: 2px;}
+#rc2:hover > #rcsquare2 {background-color: #003366; color: white;}
+#rc2:hover > #rcrec2 {background-color: blue; color: white;}
+
+#rc2 {float: left; margin-left: 12px;}
+
+#rc3 {width: 185px; height: 30px;}
+#rcsquare3 {width: 30px; height: 30px; background-color: #2F4F4F; float: left;}
+#rcrec3 {height: 30px; width: 155px; background-color: #CCCCCC; float: left; color: white; font-size: 16px;}
+#rcrectext3 {text-align: center; padding-top: 6px;}
+.comment {float: right; padding: 6px; margin-top: 2px;}
+#rc3:hover > #rcsquare3 {background-color: #003366; color: white;}
+#rc3:hover > #rcrec3 {background-color: blue; color: white;}
+
+#rc3 {float: left; margin-left: 12px;}
+
 .smallavatar {
 	width: 25px;
 	height: 25px;
@@ -200,47 +230,41 @@ h2 {
 	position: relative;
 }
 */
+.cover:hover {
+	opacity: 0.4;
+}
+
+#artone:hover .cover {
+	background-color: blue;
+}
 
 #artone {
-	width: 300px;
-	height: 300px;
-	display: inline-block;
-	position: relative;
-	z-index: 1
-}
-
-#artone:hover {
-	opacity: 1.0;
-}
-
-/*
-#artonecover {
+	background-image: url(../surfandpaddle/images/article-image-1.jpg);
 	width: 325px;
 	height: 330px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	font-size: 15px;
-
+	float: left;
 }
-*/
+
 
 #arttwo {
-	display: inline-block;
-	width: 300px;
-	height: 300px;
+	background-image: url(../surfandpaddle/images/article-image-2.jpg);
+	float: left;
+	width: 325px;
+	height: 330px;
 }
 
 #artthree {
-	display: inline-block;
-	width: 300px;
-	height: 300px;
+	background-image: url(../surfandpaddle/images/article-image-3.jpg);
+	float: left;
+	width: 325px;
+	height: 330px;
 }
 
 #artfour {
-	display: inline-block;
-	width: 300px;
-	height: 300px;
+	background-image: url(../surfandpaddle/images/article-image-4.jpg);
+	float: left;
+	width: 325px;
+	height: 330px;
 }
 
 #footer {
