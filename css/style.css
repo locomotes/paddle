@@ -74,7 +74,7 @@ p {
 #containertwo {
 	width: 960px;
 	margin: 0 auto;
-	height: 1000px;
+	height: 1050px;
 }
 
 #columnone {
@@ -112,6 +112,10 @@ p {
 #rc3:hover > #rcrec3 {background-color: blue; color: white;}
 
 #rc3 {float: left; margin-left: 12px;}
+
+#buttoncontainer {
+	height: 100px;
+}
 
 .smallavatar {
 	width: 25px;
@@ -200,7 +204,7 @@ h2 {
 }
 
 #vertline {
-	border-left: thick solid #000000;
+	border-left: thick solid #CCCCCC;
 }
 
 .annemarielarge {
@@ -301,7 +305,6 @@ h2 {
 
 nav, ul, li {
 	color: #a3b3bf;
-	list-style: none;
 	display: inline;
 	font-size: 12px;
 	float: right;
