@@ -24,13 +24,13 @@
 
 #floatheaderleft {
 	float: left;
-
 }
 
 #floatheaderright {
 	float: left;
-	margin-top: 10px;
-	padding-left: 10px;
+	margin-top: 27px;
+	padding-left: 12px;
+	font-size: 18px;
 }
 
 #headerlineright {
@@ -38,12 +38,27 @@
 	float: right;
 }
 
+.search {
+	float: left;
+	margin-top: 24px;
+}
+
+.topbuttons {
+	float: left;
+	padding: 10px;
+	padding: 6px;
+	margin-top: 15px;
+	font-style: 'oswald';
+	font-size: 22px;
+	font-weight: bold;
+}
+
 #headertitle {
 	text-align: center;
 	color: white;
 	font-family: 'Oswald';
 	font-size: 90px;
-	padding-top: 100px;
+	padding-top: 170px;
 }
 
 p {
@@ -128,6 +143,8 @@ h1 {
 	text-align: center;
 	height: 85px;
 }
+
+
 
 h4 {
 	font-family: 'oswald';
