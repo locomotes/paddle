@@ -55,6 +55,7 @@
 h1 {
 	font-family: 'oswald';
 	font-size: 60px;
+	line-height: 1.2em;
 }
 
 p {
@@ -76,30 +77,99 @@ h2 {
 }
 
 #containerthree {
-	width: 100%;
+	
 }
 
-#articleone, #articletwo, #articlethree, #articlefour {
+#artonecontainer {
+	display: inline-block;
+	position: relative;
+}
+
+#artone {
+	width: 325px;
+	height: 330px;
+	display: inline-block;
+	position: relative;
+	z-index: 1
+}
+
+#artone:hover {
+	opacity: 1.0;
+}
+
+#artonecover {
+	width: 325px;
+	height: 330px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 15px;
+
+}
+
+#arttwo {
+	display: inline-block;
+}
+
+#arttwo {
+
+}
+
+#artthree {
+	display: inline-block;
+}
+
+#artfour {
+	display: inline-block;
+}
+
+#footer {
+	height: 95px;
+	width: 100%;
+	background-color: #666699
+}
+
+#bottomcontainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#floatleft {
 	float: left;
 }
 
+#bottomimage {
+	float: left;
+	margin-top: -8px;
+}
 
+#bottomtext {
+	float: right;
+}
 
+#bottomtext {
+	color: white;
+	font-family: 'Oswald';
+	font-size: 12px;
+	margin-top: 41px;
+	margin-left: 10px;
+}
 
+nav, ul, li {
+	color: #ffffff;
+	list-style: none;
+	display: inline;
+	font-size: 12px;
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 1px;
+	margin-top: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+li:before {
+	content: "|";
+}
 
 
 
