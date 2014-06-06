@@ -18,6 +18,16 @@
 	padding-top: 1px;
 }
 
+#floatheaderleft {
+	float: left;
+
+}
+
+#floatheaderright {
+	float: right;
+	margin-top: 10px;
+}
+
 #headerlineright {
 	padding-top: 1px;
 	float: right;
@@ -31,8 +41,14 @@
 	padding-top: 100px;
 }
 
+p {
+	font-size: 18px;
+	font-family: 'oswald';
+}
+
 #headersubtitle {
 	text-align: center;
+	margin-top: -14px;
 }
 
 #containertwo {
@@ -46,6 +62,11 @@
 	width: 700px;
 }
 
+#smallavatar {
+	width: 100px;
+	height: 100px;
+}
+
 #columntwo {
 	float: right;
 	width: 260px;
@@ -56,10 +77,6 @@ h1 {
 	font-family: 'oswald';
 	font-size: 60px;
 	line-height: 1.2em;
-}
-
-p {
-	font-size: 60px;
 }
 
 #h2div {
@@ -77,17 +94,19 @@ h2 {
 }
 
 #containerthree {
-	
+	text-align: center;
+	margin-bottom: -17px;
 }
-
+/*
 #artonecontainer {
 	display: inline-block;
 	position: relative;
 }
+*/
 
 #artone {
-	width: 325px;
-	height: 330px;
+	width: 300px;
+	height: 300px;
 	display: inline-block;
 	position: relative;
 	z-index: 1
@@ -97,6 +116,7 @@ h2 {
 	opacity: 1.0;
 }
 
+/*
 #artonecover {
 	width: 325px;
 	height: 330px;
@@ -106,27 +126,30 @@ h2 {
 	font-size: 15px;
 
 }
+*/
 
 #arttwo {
 	display: inline-block;
-}
-
-#arttwo {
-
+	width: 300px;
+	height: 300px;
 }
 
 #artthree {
 	display: inline-block;
+	width: 300px;
+	height: 300px;
 }
 
 #artfour {
 	display: inline-block;
+	width: 300px;
+	height: 300px;
 }
 
 #footer {
 	height: 95px;
 	width: 100%;
-	background-color: #666699
+	background-color: #003366;
 }
 
 #bottomcontainer {
@@ -148,7 +171,7 @@ h2 {
 }
 
 #bottomtext {
-	color: white;
+	color: #a3b3bf;
 	font-family: 'Oswald';
 	font-size: 12px;
 	margin-top: 41px;
@@ -156,7 +179,7 @@ h2 {
 }
 
 nav, ul, li {
-	color: #ffffff;
+	color: #a3b3bf;
 	list-style: none;
 	display: inline;
 	font-size: 12px;
@@ -168,6 +191,7 @@ nav, ul, li {
 }
 
 li:before {
+	color: #a3b3bf;
 	content: "|";
 }
 
