@@ -325,6 +325,10 @@ h2 {
 	left: 650px;
 }
 
+a {
+
+}
+
 #artthree:hover {
 	opacity: 0.0;
 }
@@ -344,6 +348,7 @@ h2 {
 	margin left: 0px;
 	text-align: bottom;
 }
+
 
 #artfour {
 	background-color: blue;
