@@ -52,12 +52,12 @@
 
 p {
   font-size: 18px;
-  font-family: 'oswald'; }
+  font-family: Oswald; }
 
 .sectionsidebartext {
-  font-size: 16px;
-  font-family: 'oswald';
-  color: #106bd3; }
+  font-size: 18px;
+  font-family: Oswald;
+  color: #cccccc; }
 
 #headersubtitle {
   text-align: center;
@@ -244,8 +244,8 @@ h1 {
   height: 85px; }
 
 h4 {
-  font-family: 'oswald';
   font-size: 18px;
+  font-family: Oswald;
   text-align: left;
   color: #106bd3;
   height: 8px; }

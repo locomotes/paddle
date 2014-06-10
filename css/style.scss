@@ -1,11 +1,12 @@
 $color1: #CCCCCC;
-$color2: #106bd3;
+$color2: #106bd3; 
 
 @mixin commonsize {
 	width: 325px;
 	height: 330px;
 }
 
+@import 'partial';
 
 #background-one {
 	background-image: url(../surfandpaddle/images/header.jpg);
@@ -71,14 +72,13 @@ $color2: #106bd3;
 }
 
 p {
-	font-size: 18px;
-	font-family: 'oswald';
+	@include commontext(18px,Oswald);
 }
 
 .sectionsidebartext {
-	font-size: 16px;
-	font-family: 'oswald';
-	color: $color2;
+	@include commontext(18px,Oswald);
+
+	color: $color1;
 }
 
 #headersubtitle {
@@ -197,8 +197,7 @@ h1 {
 
 
 h4 {
-	font-family: 'oswald';
-	font-size: 18px;
+	@include commontext(18px,Oswald);
 	text-align: left;
 	color: $color2;
 	height: 8px;
